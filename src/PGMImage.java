@@ -24,7 +24,7 @@ public class PGMImage {
 					}
 				}
 			}
-			for (int j=0; j<=512*512; j++ ) {
+			for (int j=0; j<=512*512-1; j++ ) {
 				this.pixels[j] = image.data[j];
 			}
 		} catch (IOException e) {
